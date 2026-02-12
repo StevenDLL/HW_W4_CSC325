@@ -31,6 +31,6 @@ public class StaffEmployee extends StaffMember {
     // TODO 4:  Returns the pay rate for this staff employee.
     //-----------------------------------------------------------------
     public double pay() {
-
+        return payRate;
     }
-}
+
