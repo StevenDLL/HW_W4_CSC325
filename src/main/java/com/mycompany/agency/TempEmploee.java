@@ -18,7 +18,7 @@ public class TempEmploee extends StaffEmployee{
     }
 
     //-----------------------------------------------------------------
-    // TODO2: Adds the specified number of hours to this employee's
+    // TODO 2: Adds the specified number of hours to this employee's
     //  accumulated hours.
     //-----------------------------------------------------------------
     public void addHours(int moreHours) {
@@ -26,14 +26,14 @@ public class TempEmploee extends StaffEmployee{
     }
 
     //-----------------------------------------------------------------
-    // TODO3: Computes and returns the pay for this hourly employee.
+    // TODO 3: Computes and returns the pay for this hourly employee.
     //-----------------------------------------------------------------
     public double pay() {
 
     }
 
     //-----------------------------------------------------------------
-    // TODO4: Returns information about this hourly employee as a string.
+    // TODO 4: Returns information about this hourly employee as a string.
     //-----------------------------------------------------------------
     public String toString() {
 
