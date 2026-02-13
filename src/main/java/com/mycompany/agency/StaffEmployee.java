@@ -8,7 +8,7 @@ public class StaffEmployee extends StaffMember {
     protected double payRate;
 
     //-----------------------------------------------------------------
-    //  TODO 2: Sets up this staff employee with the specified
+    //  TODO 2: Sets up this staff employee with the specified -- DONE
     //  information.
     //-----------------------------------------------------------------
     public StaffEmployee(String eName, String eAddress, String ePhone, String socSecNumber, double rate) {
@@ -26,9 +26,10 @@ public class StaffEmployee extends StaffMember {
     }
 
     //-----------------------------------------------------------------
-    // TODO 4:  Returns the pay rate for this staff employee.
+    // TODO 4:  Returns the pay rate for this staff employee. -- DONE
     //-----------------------------------------------------------------
     public double pay() {
         return payRate;
     }
+}
 
