@@ -18,18 +18,18 @@ public class TempEmploee extends StaffEmployee {
     }
 
     //-----------------------------------------------------------------
-    // TODO 2: Adds the specified number of hours to this employee's
+    // TODO 2: Adds the specified number of hours to this employee's -- DONE
     //  accumulated hours.
     //-----------------------------------------------------------------
     public void addHours(int moreHours) {
-
+        hoursWorked += moreHours;
     }
 
     //-----------------------------------------------------------------
-    // TODO 3: Computes and returns the pay for this hourly employee.
+    // TODO 3: Computes and returns the pay for this hourly employee. -- DONE
     //-----------------------------------------------------------------
     public double pay() {
-
+        return (hoursWorked * super.payRate);
     }
 
     //-----------------------------------------------------------------

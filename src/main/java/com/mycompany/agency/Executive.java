@@ -24,7 +24,7 @@ public class Executive extends StaffEmployee{
     }
 
     //-----------------------------------------------------------------
-    // TODO 2:  Computes and returns the pay for an executive, which is the
+    // TODO 2:  Computes and returns the pay for an executive, which is the -- DONE
     //  regular employee payment plus a one-time bonus.
     //-----------------------------------------------------------------
     public double pay() {
