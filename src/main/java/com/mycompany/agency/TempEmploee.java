@@ -3,7 +3,7 @@ package com.mycompany.agency;
 
 // TODO 1: Make TempEmploee a child of StaffEmploee -- DONE
 
-public class TempEmploee extends StaffEmployee{
+public class TempEmployee extends StaffEmployee{
     private int hoursWorked;
 
     //-----------------------------------------------------------------
