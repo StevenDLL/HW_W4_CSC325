@@ -5,11 +5,11 @@ package com.mycompany.agency;
 
 public class Intern extends StaffEmployee {
     //-----------------------------------------------------------------
-    //  TODO 2: Constructor: Sets up this intern using the specified
+    //  TODO 2: Constructor: Sets up this intern using the specified -- DONE
     //  information.
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone) {
-
+        super(eName, eAddress, ePhone, "000-00-0000", 0.0);
     }
 
     //-----------------------------------------------------------------
