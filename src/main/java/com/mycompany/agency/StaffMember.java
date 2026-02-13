@@ -18,7 +18,7 @@ public abstract class StaffMember {
     }
 
     //-----------------------------------------------------------------
-    // TODO 2: Returns a string including the basic employee information.
+    // TODO 2: Returns a string including the basic employee information. - DONE DY
     //-----------------------------------------------------------------
     public String toString() {
         return "Name: " + name + ", Address: " + address + ", Phone: " + phone;

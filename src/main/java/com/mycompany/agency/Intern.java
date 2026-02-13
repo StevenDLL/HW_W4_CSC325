@@ -5,7 +5,7 @@ package com.mycompany.agency;
 
 public class Intern extends StaffEmployee {
     //-----------------------------------------------------------------
-    //  TODO 2: Constructor: Sets up this intern using the specified
+    //  TODO 2: Constructor: Sets up this intern using the specified -- DONE DY
     //  information.
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone) {
