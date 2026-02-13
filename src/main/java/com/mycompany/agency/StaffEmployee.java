@@ -11,10 +11,8 @@ public class StaffEmployee extends StaffMember {
     //  TODO 2: Sets up this staff employee with the specified
     //  information.
     //-----------------------------------------------------------------
-    public StaffEmployee(String eName, String eAddress, String ePhone,
-                         String socSecNumber, double rate) {
+    public StaffEmployee(String eName, String eAddress, String ePhone, String socSecNumber, double rate) {
         super(eName, eAddress, ePhone);
-
         socialSecurityNumber = socSecNumber;
         payRate = rate;
     }
