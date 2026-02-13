@@ -19,10 +19,15 @@ public class StaffEmployee extends StaffMember {
 
     //-----------------------------------------------------------------
     // TODO 3: complete the implementation of toString to return information 
-    //          about a staff employee as a string.
+    //          about a staff employee as a string. -- DONE
     //-----------------------------------------------------------------
+   @Override
     public String toString() {
+        String result = super.toString();
 
+        result += "\nSocial Security Number: " + socialSecurityNumber;
+
+        return result;
     }
 
     //-----------------------------------------------------------------
