@@ -10,7 +10,7 @@ public class Staff {
     public Staff() {
         staffList = new StaffMember[6];
 
-        // TODO 1: Add 6 employees to the staffList
+        // TODO 1: Add 6 employees to the staffList -- DONE
 
         staffList[0] = new Executive("Jack", "123 Main St", "555-0101", "111-22-3333", 2500.00);
         staffList[1] = new StaffEmployee("Alice", "456 Oak Ave", "555-0102", "222-33-4444", 1800.00);
